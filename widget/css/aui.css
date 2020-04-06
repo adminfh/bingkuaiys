@@ -1,10 +1,10 @@
 /*
  * =========================================================================
- * APIClud - AUI UI 框架    流浪男  QQ：343757327  http://www.auicss.com
+ * 5G云资源网  www.yunziyuan.com.cn
  * Verson 2.1
  * =========================================================================
  */
- /*初始化类*/
+ /*Ã¥Ë†ÂÃ¥Â§â€¹Ã¥Å’â€“Ã§Â±Â»*/
 @charset "UTF-8";
 html{
 	font-family: "Helvetica Neue", Helvetica, sans-serif;
@@ -20,9 +20,9 @@ html,body {
 body {
 	line-height: 1.5;
 	font-size: 0.8rem;
-	color: #9E9E9E;
-	background-color: #FFFFFF;
-	outline: 0; 
+	color: #000;
+	background-color: #f5f5f5;
+	outline: 0;
 }
 html,body,header,section,footer,div,ul,ol,li,img,a,span,em,del,legend,center,strong,var,fieldset,form,label,dl,dt,dd,cite,input,hr,time,mark,code,figcaption,figure,textarea,h1,h2,h3,h4,h5,h6,p{
 	margin:0;
@@ -78,7 +78,7 @@ button,input,select,textarea {
 	font: inherit;
 	color: inherit;
 }
-/*自动隐藏文字*/
+/*Ã¨â€¡ÂªÃ¥Å Â¨Ã©Å¡ÂÃ¨â€”ÂÃ¦â€“â€¡Ã¥Â­â€”*/
 .aui-ellipsis-1 {
 	overflow: hidden;
 	white-space: nowrap;
@@ -104,7 +104,7 @@ button,input,select,textarea {
 	-webkit-line-clamp: 2;
 	-webkit-box-orient: vertical;
 }
-/*水平线*/
+/*Ã¦Â°Â´Ã¥Â¹Â³Ã§ÂºÂ¿*/
 .aui-hr {
 	width: 100%;
 	position: relative;
@@ -121,7 +121,7 @@ button,input,select,textarea {
         background-image: -webkit-linear-gradient(90deg,#dddddd,#dddddd 50%,transparent 50%);
 	}
 }
-/*内外边距类*/
+/*Ã¥â€ â€¦Ã¥Â¤â€“Ã¨Â¾Â¹Ã¨Â·ÂÃ§Â±Â»*/
 .aui-padded-0 {
 	padding: 0 !important;
 }
@@ -252,7 +252,7 @@ button,input,select,textarea {
 .aui-clearfix:after {
 	clear: both;
 }
-/*文字对齐*/
+/*Ã¦â€“â€¡Ã¥Â­â€”Ã¥Â¯Â¹Ã©Â½Â*/
 .aui-text-left {
 	text-align: left !important;
 }
@@ -265,7 +265,7 @@ button,input,select,textarea {
 .aui-text-right {
 	text-align: right !important;
 }
-/*文字、背景颜色*/
+/*Ã¦â€“â€¡Ã¥Â­â€”Ã£â‚¬ÂÃ¨Æ’Å’Ã¦â„¢Â¯Ã©Â¢Å“Ã¨â€°Â²*/
 h1,h2,h3,h4,h5,h6 {
 	font-weight: 400;
 }
@@ -384,7 +384,7 @@ img {
 .aui-bg-indigo {
 	background-color: #3f51b5 !important;
 }
-/*警告、成功颜色*/
+/*Ã¨Â­Â¦Ã¥â€˜Å Ã£â‚¬ÂÃ¦Ë†ÂÃ¥Å Å¸Ã©Â¢Å“Ã¨â€°Â²*/
 .aui-warning,
 .aui-warning label,
 .aui-warning .aui-input,
@@ -397,7 +397,7 @@ img {
 .aui-success .aui-iconfont {
 	color: #009688 !important;
 }
-/*对齐,显示，隐藏等*/
+/*Ã¥Â¯Â¹Ã©Â½Â,Ã¦ËœÂ¾Ã§Â¤ÂºÃ¯Â¼Å’Ã©Å¡ÂÃ¨â€”ÂÃ§Â­â€°*/
 .aui-pull-right {
 	float: right !important;
 }
@@ -440,7 +440,7 @@ img {
 img.aui-img-round {
 	border-radius: 50%;
 }
-/*基本容器*/
+/*Ã¥Å¸ÂºÃ¦Å“Â¬Ã¥Â®Â¹Ã¥â„¢Â¨*/
 .aui-content {
 	-webkit-overflow-scrolling: touch;
 	overflow-x: hidden;
@@ -452,7 +452,7 @@ img.aui-img-round {
   	word-break: break-all;
   	-webkit-overflow-scrolling: touch;
 }
-/*栅格类*/
+/*Ã¦Â â€¦Ã¦Â Â¼Ã§Â±Â»*/
 .aui-row {
 	overflow: hidden;
 	margin: 0;
@@ -508,7 +508,7 @@ img.aui-img-round {
 .aui-col-5 {
 	width: 20%;
 }
-/*标签*/
+/*Ã¦Â â€¡Ã§Â­Â¾*/
 .aui-label {
 	display: inline-block;
 	padding: 0.2rem 0.25rem;
@@ -591,7 +591,7 @@ img.aui-img-round {
 .aui-label .aui-iconfont {
 	font-size: 0.6rem;
 }
-/*角标*/
+/*Ã¨Â§â€™Ã¦Â â€¡*/
 .aui-badge {
 	display: inline-block;
 	width: auto;
@@ -620,7 +620,7 @@ img.aui-img-round {
     right: 20%;
     z-index: 99;
 }
-/*按钮样式*/
+/*Ã¦Å’â€°Ã©â€™Â®Ã¦Â Â·Ã¥Â¼Â*/
 button, .aui-btn {
 	position: relative;
 	display: inline-block;
@@ -666,7 +666,7 @@ button, .aui-btn {
 .aui-btn-info {
 	color: #ffffff !important;
 /* 	background-color: #03a9f4 !important;  */
-background: linear-gradient(to right,#ff5e3e 0,#ff1679 100%);
+background: linear-gradient(to right,#03bbf4 0,#d800ff 100%) ;
 }
 .aui-btn-info.aui-active, .aui-btn-info:active {
 	color: #fff !important;
@@ -739,7 +739,7 @@ background: linear-gradient(to right,#ff5e3e 0,#ff1679 100%);
 	border: 1px solid #e51c23 !important;
 }
 /*
-*表单类\输入框\radio\checkbox
+*Ã¨Â¡Â¨Ã¥Ââ€¢Ã§Â±Â»\Ã¨Â¾â€œÃ¥â€¦Â¥Ã¦Â¡â€ \radio\checkbox
 **/
 .aui-input,
 input[type="text"],
@@ -762,9 +762,9 @@ textarea {
     padding: 0;
     margin: 0;
     width: 100%;
-    height: 1.2rem; 
+    height: 2.2rem;
     line-height: normal;
-    color: #9E9E9E;
+    color: #6269f9;
     font-size: 0.8rem;
     font-family: inherit;
     box-sizing: border-box;
@@ -790,7 +790,7 @@ input[type="search"]::-webkit-search-cancel-button {
 ::-webkit-scrollbar{
 	width:0px;
 }
-/*列表*/
+/*Ã¥Ë†â€”Ã¨Â¡Â¨*/
 .aui-list {
     position: relative;
     font-size: 0.8rem;
@@ -1110,7 +1110,7 @@ input[type="search"]::-webkit-search-cancel-button {
         background-image: none;
 	}
 }
-/*tab切换类*/
+/*tabÃ¥Ë†â€¡Ã¦ÂÂ¢Ã§Â±Â»*/
 .aui-tab {
 	position: relative;
     background-color: #ffffff;
@@ -1138,7 +1138,7 @@ input[type="search"]::-webkit-search-cancel-button {
     color: #039be5;
     border-bottom: 2px solid #039be5;
 }
-/*卡片列表布局*/
+/*Ã¥ÂÂ¡Ã§â€°â€¡Ã¥Ë†â€”Ã¨Â¡Â¨Ã¥Â¸Æ’Ã¥Â±â‚¬*/
 .aui-card-list {
 	position: relative;
     margin-bottom: 0.75rem;
@@ -1241,7 +1241,7 @@ input[type="search"]::-webkit-search-cancel-button {
 .aui-card-list-footer .aui-iconfont {
 	font-size: 0.9rem;
 }
-/*宫格布局*/
+/*Ã¥Â®Â«Ã¦Â Â¼Ã¥Â¸Æ’Ã¥Â±â‚¬*/
 .aui-grid {
 	width: 100%;
 	background-color: #ffffff;
@@ -1284,7 +1284,7 @@ input[type="search"]::-webkit-search-cancel-button {
     right: 20%;
     z-index: 99;
 }
-/*单选、多选、开关*/
+/*Ã¥Ââ€¢Ã©â‚¬â€°Ã£â‚¬ÂÃ¥Â¤Å¡Ã©â‚¬â€°Ã£â‚¬ÂÃ¥Â¼â‚¬Ã¥â€¦Â³*/
 .aui-radio,
 .aui-checkbox {
     width: 1.2rem;
@@ -1418,7 +1418,7 @@ input[type="search"]::-webkit-search-cancel-button {
 .aui-switch:checked:before {
     left: 1.1rem;
 }
-/*导航栏*/
+/*Ã¥Â¯Â¼Ã¨Ë†ÂªÃ¦Â Â*/
 .aui-bar {
 	position: relative;
 	top: 0;
@@ -1484,15 +1484,12 @@ input[type="search"]::-webkit-search-cancel-button {
 	z-index: 2;
 	-webkit-box-sizing: border-box;
 			box-sizing: border-box;
- /*   display: -webkit-box;
+    display: -webkit-box;
     display: -webkit-flex;
-    display: flex;  */
+    display: flex;
     -webkit-align-items: center;
             align-items: center;
 }
-
-
-
 .aui-bar-nav .aui-btn {
 	position: relative;
 	z-index: 20;
@@ -1546,7 +1543,7 @@ input[type="search"]::-webkit-search-cancel-button {
         background-image: -webkit-linear-gradient(90deg,#dddddd,#dddddd 50%,transparent 50%);
 	}
 }
-/*底部切换栏*/
+/*Ã¥Âºâ€¢Ã©Æ’Â¨Ã¥Ë†â€¡Ã¦ÂÂ¢Ã¦Â Â*/
 .aui-bar-tab {
 	position: fixed;
 	top: auto;
@@ -1591,7 +1588,7 @@ input[type="search"]::-webkit-search-cancel-button {
     right: 30%;
     z-index: 99;
 }
-/*按钮工具栏*/
+/*Ã¦Å’â€°Ã©â€™Â®Ã¥Â·Â¥Ã¥â€¦Â·Ã¦Â Â*/
 .aui-bar-btn {
 	position: relative;
     font-size: 0.7rem;
@@ -1725,7 +1722,7 @@ input[type="search"]::-webkit-search-cancel-button {
 	display: inherit;
 	position: relative;
 }
-/*进度条*/
+/*Ã¨Â¿â€ºÃ¥ÂºÂ¦Ã¦ÂÂ¡*/
 .aui-progress {
 	width: 100%;
 	height: 1rem;
@@ -1773,7 +1770,7 @@ input[type="search"]::-webkit-search-cancel-button {
 .aui-progress-xxs .progress-bar {
 	border-radius: 1px;
 }
-/*滑块*/
+/*Ã¦Â»â€˜Ã¥Ââ€”*/
 .aui-range {
     position: relative;
     display: inline-block;
@@ -1812,7 +1809,7 @@ input[type="search"]::-webkit-search-cancel-button {
 	width: 90%;
 	margin-left: 5%;
 }
-/*搜索条*/
+/*Ã¦ÂÅ“Ã§Â´Â¢Ã¦ÂÂ¡*/
 .aui-searchbar {
     display: -webkit-box;
     -webkit-box-pack: center;
@@ -1895,7 +1892,7 @@ input[type="search"]::-webkit-search-cancel-button {
 .aui-searchbar .aui-searchbar-btn .aui-iconfont {
 	color: #666666;
 }
-/*信息提示条*/
+/*Ã¤Â¿Â¡Ã¦ÂÂ¯Ã¦ÂÂÃ§Â¤ÂºÃ¦ÂÂ¡*/
 .aui-tips {
     padding: 0 0.75rem;
     width: 100%;
@@ -2263,7 +2260,7 @@ input[type="search"]::-webkit-search-cancel-button {
     text-align: center;
     font-size: 0.7rem;
 }
-/*折叠菜单*/
+/*Ã¦Å ËœÃ¥ÂÂ Ã¨ÂÅ“Ã¥Ââ€¢*/
 .aui-collapse-header.aui-active {
     background: #ececec;
 }
@@ -2342,7 +2339,7 @@ input[type="search"]::-webkit-search-cancel-button {
     background-color: #03a9f4 !important;
     color: #ffffff;
 }
-/*聊天气泡*/
+/*Ã¨ÂÅ Ã¥Â¤Â©Ã¦Â°â€Ã¦Â³Â¡*/
 .aui-chat {
     width: 100%;
     height: 100%;
@@ -2475,7 +2472,7 @@ input[type="search"]::-webkit-search-cancel-button {
     float: right;
     right: 0.5rem;
 }
-/*边框样式*/
+/*Ã¨Â¾Â¹Ã¦Â¡â€ Ã¦Â Â·Ã¥Â¼Â*/
 .aui-border-l {
     border-left: 1px solid #dddddd;
 }
@@ -2533,7 +2530,7 @@ input[type="search"]::-webkit-search-cancel-button {
         background-position: top, right top, bottom, left top;
     }
 }
-/*时间轴*/
+/*Ã¦â€”Â¶Ã©â€”Â´Ã¨Â½Â´*/
 .aui-timeline {
     position: relative;
     padding: 0;
@@ -2592,7 +2589,7 @@ input[type="search"]::-webkit-search-cancel-button {
     padding: 0;
     position: relative;
 }
-/*基础动画类*/
+/*Ã¥Å¸ÂºÃ§Â¡â‚¬Ã¥Å Â¨Ã§â€Â»Ã§Â±Â»*/
 @keyframes rotate {
     0% {
         -webkit-transform: rotate(0deg) scale(1);

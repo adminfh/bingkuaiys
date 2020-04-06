@@ -33,7 +33,7 @@ a {
 }
 
 .aui-navBar {
-    height: 80px;
+    height: 70px;
     position: relative;
     display: -webkit-box;
     display: -webkit-flex;
@@ -535,14 +535,14 @@ a {
 }
 
 .aui-card-list {
-    height: 50px;
-    border-radius: 8px;
+    height: 55px;
+    border-radius: 5px;
     background-image: -webkit-gradient(linear,left top,right top,from(#ecbf8b),to(#fcd9b0));
     background-image: -webkit-linear-gradient(left,#ecbf8b,#fcd9b0);
     background-image: -moz-linear-gradient(left,#ecbf8b,#fcd9b0);
     background-image: linear-gradient(to right,#03e8ff,#ffc800);
     background-color: #ecbf8b;
-    margin-bottom: 20px;
+    margin-bottom: 22px;
     width: 100%;
     box-shadow: 0 1px 16px 0 rgba(0,0,0,.1);
 }

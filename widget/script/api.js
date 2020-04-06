@@ -474,7 +474,6 @@
             ls.clear();
         }
     };
-	/*
     u.fixIos7Bar = function(el){
         return u.fixStatusBar(el);
     };
@@ -486,19 +485,6 @@
         el.style.paddingTop = api.safeArea.top + 'px';
         return el.offsetHeight;
     };
-	*/
-	u.fixIos7Bar = function(el){
-    return u.fixStatusBar(el);
-};
-u.fixStatusBar = function(el){
-    if(!u.isElement(el)){
-        console.warn('$api.fixStatusBar Function need el param, el param must be DOM Element');
-        return 0;
-    }
-    el.style.paddingTop = api.safeArea.top + 'px';
-    return el.offsetHeight;
-};
-	
     u.fixTabBar = function(el){
         if(!u.isElement(el)){
             console.warn('$api.fixTabBar Function need el param, el param must be DOM Element');

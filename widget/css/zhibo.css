@@ -524,7 +524,7 @@ a {
     background-image: -webkit-gradient(linear,left top,right top,from(#ff6144),to(#ff0072));
     background-image: -webkit-linear-gradient(left,#ff6144,#ff0072);
     background-image: -moz-linear-gradient(left,#ff6144,#ff0072);
-    background-image: linear-gradient(to right,#ff6144,#ff0072);
+    background-image: linear-gradient(to right,#ff4496,#2700ff);
     background-color: #ff6144;
     border-radius: 20px;
     padding: 6px 20px;
@@ -628,7 +628,7 @@ a {
 
     */
 
-    background: linear-gradient(to right, #ff6144, #ff0072);
+    background: linear-gradient(to right,#ff4496,#2700ff);
     -webkit-background-clip: text;
     color: transparent;
     font-style:normal;

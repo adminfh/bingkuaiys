@@ -5,18 +5,21 @@
 .flex-con{     -webkit-box-flex: 1;     -webkit-flex: 1;    flex: 1; font-size:12px;color: #543e3e;}
 .flex-vertical{ -webkit-box-orient: vertical;-webkit-flex-flow: column;flex-flow: column;}
 
-#wrap{ height: 100%;}
-/*
 .border-t,
 .border-b{ position:relative;  }
 .border-t:before,
-.border-b:after{     content: '';     position: absolute;    left: 0;  top:0;     background: #ddd;   right:0;    height: 1px;     -webkit-transform: scaleY(0.5);             transform: scaleY(0.5);     -webkit-transform-origin: 0 0;             transform-origin: 0 0; }
+.border-b:after{     content: '';     position: absolute;    /* left: 0;  top:0;     background: #ddd;   right:0;    height: 1px; */     -webkit-transform: scaleY(0.5);             transform: scaleY(0.5);     -webkit-transform-origin: 0 0;             transform-origin: 0 0; }
 .border-b:after{ top:auto; bottom:0;  }
 .border-c{background-color: #ff6666;}
-*/
-/*
-.br{height: 8px;}
+#wrap{ height: 100%;}
 
+.br{height: 8px;}
+.gonggao {
+  height: 40px;background-color: rgba(0,0,0,3);
+}
+.gonggao marquee{
+  font-size: 0.8rem;color: #fff;
+}
 .list-title{
   height: 1.7rem;
   line-height: 1.6rem;
@@ -33,12 +36,11 @@
   border-radius: 0.5rem;width: 2rem;height: 2rem;margin:0 auto;box-shadow: 0.01rem 0.1rem 0.2rem rgba(99, 99, 99, 0.29);
 }
 .pt-list{
-  border-bottom:0.06rem solid #f5f5f5;border-right:0.06rem solid #f5f5f5;
+  border-bottom:0.06rem solid #F5F5F5;border-right:0.06rem solid #F5F5F5;
 }
 .aui-label-list{
   font-size: 0.5rem;height: 0.65rem;text-align: center;border-radius: 30px;
 }
-
 .foot{
   text-align: center;font-size: 0.7rem;color: #b5b5b5;margin-bottom: 2rem;position: relative;
 }
@@ -53,6 +55,7 @@
 }
 .aui-btn-tuichu{
   width: 100% !important;
+  /* background-color: #ff7600; */
   	background: linear-gradient(to right,#ff5e3e 0,#ff1679 100%);
   color: #fff;
   text-align: center;
@@ -61,7 +64,6 @@
 .aui-list-item-title{
   font-size: 0.7rem !important;
 }
-
 .myui-bg-info{
   background-image: url(user_bg.jpg);
   background-repeat: no-repeat;
@@ -69,8 +71,6 @@
   -moz-background-size: 100% 100%;
   height: 8rem !important;
 }
-
-
 .aui-list-item-text2{
   font-size: 0.55rem !important;
 }
@@ -95,11 +95,15 @@
   font-size: 0.7rem;
 }
 .login-bg{
+  background-color: #000000;
+  background-image: url(./login_bg.jpg);
   background: linear-gradient(to right,#ff5e3e 0,#ff1679 100%);
   background-repeat:no-repeat; background-size:100% 100%;-moz-background-size:100% 100%;
 }
 .login-bg2{
-  background: linear-gradient(to right,#ff5e3e 0,#ff1679 100%);
+  background-color: #3484d8;
+  background-image: url(./login_bg.jpg);
+  background: linear-gradient(to right,#2C6FF4 0,#5E90F4 100%);
   background-repeat:no-repeat; background-size:100% 100%;-moz-background-size:100% 100%;
 }
 .close-back{
@@ -116,6 +120,7 @@
 .myui-from-list-item-input{
   background-color: rgba(255,255,255, 0.2) !important;
 
+  /*border:1px solid rgba(241, 241, 241, 0.6) !important;*/
   border-radius: 0.4rem !important;
   text-align: center;
   color: #fff !important;
@@ -405,13 +410,11 @@
 .fx-box{
   background-color: #fff;
   width: 100%;
-  height: 70%;
+  /*height: 70%;
   padding: 3%;
-  box-shadow: 0.01rem 0.1rem 0.2rem rgba(99, 99, 99, 0.29);
+  box-shadow: 0.01rem 0.1rem 0.2rem rgba(99, 99, 99, 0.29);*/
 
 }
-
-
 .reg-box{
   padding: 150% 5% 0 5%;
 }
@@ -471,10 +474,18 @@
   background: linear-gradient(to right, #ff6144, #ff0072);
   -webkit-background-clip: text;
   color: transparent;
+    /*
+color: #fff;
+background-image: -webkit-gradient(linear,left top,right top,from(#ff6144),to(#ff0072));
+background-image: -webkit-linear-gradient(left,#ff6144,#ff0072);
+background-image: -moz-linear-gradient(left,#ff6144,#ff0072);
+background-image: linear-gradient(to right,#ff6144,#ff0072);
+background-color: #ff6144;
+  */
 
 }
 .gonggao-r{
-
+/*  text-align: center; */
 }
 .index-b img{
   width: 100%;
@@ -494,7 +505,7 @@
     margin: 0.15rem;
 }
 
-*/
+
 
 /*
 .aui-me-content-box {
@@ -644,7 +655,7 @@
 
 
 /*第二版*/
-/*
+
 a {
     color: #666;
 }
@@ -677,7 +688,7 @@ a {
 }
 
 .aui-navBar {
-    height: 70px;
+    height: 90px;
     position: relative;
     display: -webkit-box;
     display: -webkit-flex;
@@ -690,7 +701,7 @@ a {
 
 .aui-navBar-item {
     height: 44px;
-    min-width: 30%;
+    min-width: 20%;
     -webkit-box-flex: 0;
     -webkit-flex: 0 0 25%;
     -ms-flex: 0 0 25%;
@@ -765,6 +776,7 @@ a {
     -webkit-order: 1;
     -ms-flex-order: 1;
     order: 1;
+  /*  margin-right: -25%;  */
     font-size: 1rem;
     font-weight: bold;
 }
@@ -799,6 +811,7 @@ a {
     align-items: center;
     height: 44px;
     width: 50%;
+/*    margin-left: 25%;   */
 }
 
 .aui-center-title {
@@ -827,6 +840,7 @@ a {
     width: 25px;
     height: 25px;
     background-size: 25px;
+  /*  margin-right: 10px;  */
     background-image: url("../image/icon-info.png");
 }
 
@@ -834,6 +848,7 @@ a {
     width: 15px;
     height: 15px;
     background-size: 15px;
+  /*  margin-right: 10px;  */
     background-image: url("../image/app/back.png");
 }
 
@@ -841,6 +856,7 @@ a {
     width: 15px;
     height: 15px;
     background-size: 15px;
+  /*  margin-right: 10px;  */
     background-image: url("../image/app/back-b.png");
 }
 
@@ -848,13 +864,28 @@ a {
     width: 15px;
     height: 15px;
     background-size: 15px;
+  /*  margin-right: 10px;  */
     background-image: url("../image/app/blackRefresh.png");
 }
-
+.icon-bofang {
+    width: 15px;
+    height: 15px;
+    background-size: 15px;
+  /*  margin-right: 10px;  */
+    background-image: url("../image/app/bofang.png");
+}
+.icon-bofang1 {
+    width: 15px;
+    height: 15px;
+    background-size: 15px;
+  /*  margin-right: 10px;  */
+    background-image: url("../image/app/bofang1.png");
+}
 .icon-Close-b {
     width: 15px;
     height: 15px;
     background-size: 15px;
+  /*  margin-right: 10px;  */
     background-image: url("../image/app/Close-b.png");
 }
 
@@ -862,6 +893,7 @@ a {
     width: 15px;
     height: 15px;
     background-size: 15px;
+  /*  margin-right: 10px;  */
     background-image: url("../image/app/ChangeTheLine-b.png");
 }
 
@@ -870,6 +902,7 @@ a {
     width: 15px;
     height: 15px;
     background-size: 15px;
+  /*  margin-right: 10px;  */
     background-image: url("../image/app/Disconnect-r.png");
 }
 
@@ -878,6 +911,7 @@ a {
     width: 15px;
     height: 15px;
     background-size: 15px;
+  /*  margin-right: 10px;  */
     background-image: url("../image/app/qingli.png");
 }
 
@@ -914,6 +948,7 @@ a {
 .aui-panel {
     padding: 10px 20px 22px 20px;
     position: relative;
+  /*  margin-bottom: 20px;   */
 }
 
 .aui-panel-cell {
@@ -1134,9 +1169,10 @@ a {
     width: 80px;
     position: absolute;
     bottom: 0px;
-
+  /*  left: 50%;
+    margin-left: -85px;
+    */
 }
-
 
 .aui-panel-time:after {
     content: " ";
@@ -1374,7 +1410,7 @@ a {
 
 
 
-*/
+
 
 
 /*会员升级购买列表css*/
